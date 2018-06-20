@@ -212,8 +212,6 @@ function installTemplateDependencies(templatePath, yarnVersion) {
       });
     }
   }
-  console.log("Linking native dependencies into the project's build files...");
-  execSync('react-native link', {stdio: 'inherit'});
 }
 
 function installTemplateDevDependencies(templatePath, yarnVersion) {
