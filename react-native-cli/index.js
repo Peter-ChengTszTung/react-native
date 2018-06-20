@@ -67,9 +67,8 @@ var CLI_MODULE_PATH = function() {
 
 var REACT_NATIVE_PACKAGE_JSON_PATH = function() {
   return path.resolve(
-    process.cwd(),
-    'node_modules',
-    'react-native',
+    __dirname, 
+    '..',
     'package.json',
   );
 };
