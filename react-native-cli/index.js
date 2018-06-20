@@ -114,7 +114,8 @@ if (fs.existsSync(cliPath)) {
 
 var commands = options._;
 if (cli) {
-  cli.run();
+  // Disable cli auto run
+  // cli.run();
 } else {
   if (options._.length === 0 && (options.h || options.help)) {
     console.log(
