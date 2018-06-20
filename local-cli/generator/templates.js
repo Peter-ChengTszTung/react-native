@@ -66,18 +66,6 @@ function createProjectFromTemplate(
   template,
   yarnVersion,
 ) {
-  // Expand the basic 'HelloWorld' template
-  copyProjectTemplateAndReplace(
-    path.resolve(
-      'node_modules',
-      'react-native',
-      'local-cli',
-      'templates',
-      'HelloWorld',
-    ),
-    destPath,
-    newProjectName,
-  );
 
   if (template === undefined) {
     // No specific template, use just the HelloWorld template above
