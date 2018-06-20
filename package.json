@@ -112,6 +112,7 @@
     "Libraries",
     "LICENSE",
     "local-cli",
+    "react-native-cli",
     "packager",
     "react.gradle",
     "React.podspec",
