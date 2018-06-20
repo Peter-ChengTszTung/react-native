@@ -62,7 +62,7 @@ var semver = require('semver');
 var options = require('minimist')(process.argv.slice(2));
 
 var CLI_MODULE_PATH = function() {
-  return path.resolve(process.cwd(), 'node_modules', 'react-native', 'cli.js');
+  return path.resolve(__dirname, '..', 'cli.js');
 };
 
 var REACT_NATIVE_PACKAGE_JSON_PATH = function() {
