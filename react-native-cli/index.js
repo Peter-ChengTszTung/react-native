@@ -341,6 +341,6 @@ function printVersionsAndExit(reactNativePackageJsonPath) {
   process.exit();
 }
 
-export default {
-  init: init
-}
+module.exports = {
+  init
+};
