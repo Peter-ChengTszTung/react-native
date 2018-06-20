@@ -308,7 +308,7 @@ function run(root, projectName, options) {
   }
   checkNodeVersion();
   cli = require(CLI_MODULE_PATH());
-  cli.init(root, projectName);
+  cli.init(root, options);
 }
 
 function checkNodeVersion() {
